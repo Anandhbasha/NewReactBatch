@@ -1,0 +1,16 @@
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    background-color: teal;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.23em;
+    font-weight: bold;
+}

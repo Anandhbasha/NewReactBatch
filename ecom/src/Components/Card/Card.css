@@ -19,6 +19,7 @@
     border: none;
     font-size: 1.13em;
     font-weight: bolder;
+    cursor: pointer;
 }
 .cardTop{
     width: 100%;

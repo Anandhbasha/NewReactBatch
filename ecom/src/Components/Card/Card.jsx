@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./Card.css"
+import { Passvalue } from '../../App';
 
 const Card = ({title,price,description,image}) => {
     console.log(title);
+const {setCount} = useContext(Passvalue)
     
   return (
     <div className='Card'>
@@ -15,7 +17,7 @@ const Card = ({title,price,description,image}) => {
             <p>{description}</p>
         </div>
         <div className='cardBtn'>
-            <button>Add to Cart</button>
+            <button onClick={()=>setCount((prev)=>++prev)}>Add to Cart</button>
         </div>
         
     </div>
