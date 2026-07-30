@@ -1,0 +1,13 @@
+.Sidebar{
+    position: fixed;
+    right: 0px;
+    height: 100vh;
+    overflow-y: auto;
+    width: 400px;
+    top: 10vh;
+}
+.cartItem>img{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
