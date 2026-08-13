@@ -57,26 +57,44 @@
 
 
 
-class Courses:
-    course_Names = ["HTML","CSS","JS","NodeJs","React","Mongodb","sql","Python"]
-    def fullStackt(self):
-        print("It you complete all this course you are the fullstack developer")
-    def frontend(self,sports):
-        print("you are the frontend developer")
-        print(sports)
-    def backend(self):
-            print("you are the backend developer")
+# class Courses:
+#     course_Names = ["HTML","CSS","JS","NodeJs","React","Mongodb","sql","Python"]
+#     def fullStackt(self):
+#         print("It you complete all this course you are the fullstack developer")
+#     def frontend(self,sports):
+#         print("you are the frontend developer")
+#         print(sports)
+#     def backend(self):
+#             print("you are the backend developer")
 
-kausi = Courses()
-print(kausi.course_Names)
-kausi.fullStackt()
-boopathi = Courses()
-print(boopathi.course_Names)
-boopathi.fullStackt()
-hari = Courses()
-courseName1 = hari.course_Names[-1]
-courseName2 = hari.course_Names[-2]
-print(courseName1)
-print(courseName2)
-hari.backend()
-hari.frontend("volleyboll")
+# kausi = Courses()
+# print(kausi.course_Names)
+# kausi.fullStackt()
+# boopathi = Courses()
+# print(boopathi.course_Names)
+# boopathi.fullStackt()
+# hari = Courses()
+# courseName1 = hari.course_Names[-1]
+# courseName2 = hari.course_Names[-2]
+# print(courseName1)
+# print(courseName2)
+# hari.backend()
+# hari.frontend("volleyboll")
+
+
+# access specifiers
+# private
+# protected
+# public
+# inheritence
+# encapsulation
+# abstraction
+# polymorphishm
+# aggregation
+# composition
+# constructor
+# destructor
+
+
+
+# encapsulation->private
