@@ -1,0 +1,926 @@
+Python Slicing Tasks
+
+Basic Level
+
+1. "Python" → print first 2 characters
+2. "Python" → print last 2 characters
+3. "Python" → print middle 2 characters
+4. "Python" → reverse string using slicing
+5. "Programming" → print first 5 characters
+6. "Programming" → print last 4 characters
+7. "HelloWorld" → skip first 3 characters
+8. "HelloWorld" → remove last 3 characters
+9. "DataScience" → print every 2nd character
+10. "MachineLearning" → print every 3rd character
+
+
+Intermediate Level
+11. "PythonProgramming" → reverse only first half
+12. "PythonProgramming" → reverse only second half
+13. "abcdefghij" → print from index 2 to 8
+14. "abcdefghij" → print from index 8 to 2 (reverse order)
+15. "HelloWorld" → print alternate characters in reverse
+16. "1234567890" → get even index numbers
+17. "1234567890" → get odd index numbers
+18. "OpenAIChatGPT" → remove first and last character
+19. "OpenAIChatGPT" → print center portion only
+20. "Developer" → split into two halves using slicing
+
+
+
+Advanced Level
+21. "PythonIsAwesome" → reverse words manually using slicing
+22. "ABCDEFGHIJK" → reverse in steps of 2
+23. "123456789" → print palindrome check using slicing
+24. "SlicingIsPowerful" → reverse only vowels position (logic + slicing)
+25. "FullStackDeveloper" → swap first half and second half using slicing
+
+
+
+Challenge 
+"abcdefg" → output: "gfedcbaabcdefg" using slicing only
+
+
+
+
+
+
+
+LIST TASKS (1–15)
+
+1. Reverse a list using slicing
+2. Get first 5 elements using slicing
+3. Get last 5 elements using slicing
+4. Extract middle 3 elements
+5. Combine two lists without using + operator
+6. Remove duplicates using only list + set
+7. Convert list to tuple
+8. Convert list to set
+9. Insert element at index 2
+10. Remove element at index 3
+11. Replace 2nd element with "Python"
+12. Count occurrences of "a" in list
+13. Find index of element "100"
+14. Sort list (ascending)
+15. Reverse sort list (descending)
+
+
+TUPLE TASKS (16–25)
+
+16. Convert tuple to list
+17. Extract first 3 elements
+18. Extract last 2 elements
+19. Reverse tuple using slicing
+20. Find index of element
+21. Count how many times element appears
+22. Convert tuple to set
+23. Merge two tuples
+24. Get alternate elements (index 0,2,4...)
+25. Get reversed alternate elements
+
+
+
+SET TASKS (26–35)
+
+26. Remove duplicates from list using set
+27. Add element to set
+28. Remove element from set
+29. Convert set to list
+30. Convert set to tuple
+31. Find union of two sets
+32. Find intersection of two sets
+33. Find difference between sets
+34. Check length of set
+35. Clear all elements from set
+
+
+DICTIONARY TASKS (36–45)
+
+36. Create dictionary from two lists (keys & values)
+37. Get all keys
+38. Get all values
+39. Convert dict keys to list
+40. Convert dict values to tuple
+41. Update value of a key
+42. Add new key-value pair
+43. Remove a key
+44. Get value using key
+45. Convert dictionary to list of tuples
+
+
+
+MIXED TASKS (46–50)
+
+46. Reverse list and convert to tuple
+47. Remove duplicates and convert to sorted list
+48. Extract even-index elements using slicing
+49. Merge list + tuple → convert to set
+50. Take dictionary → extract values → convert to list → reverse using slicing
+
+
+
+
+Additional Task
+* [1,2,3,4,5] → [5,4,3,2,1,1,2,3,4,5]
+* Tuple → reverse → convert → slice middle only
+
+
+
+
+
+
+Operators Task
+
+
+BASIC OPERATOR TASKS
+
+1. Add two numbers using +
+2. Subtract two numbers using -
+3. Multiply two numbers using *
+4. Divide two numbers using /
+5. Find remainder using %
+6. Find power using 
+7. Floor division using //
+
+
+
+INTERMEDIATE TASKS
+
+8. Swap two numbers without using third variable
+9. Check if number is even using %
+10. Convert Celsius to Fahrenheit using formula
+11. Convert minutes to hours and minutes using operators
+12. Find last digit of a number
+13. Remove last digit of a number
+14. Get first digit of a 3-digit number (using //)
+15. Reverse a 2-digit number using operators
+
+
+
+ADVANCED (NO LOOP, PURE OPERATORS LOGIC)
+
+16. Reverse a 3-digit number
+    Example: 123 → 321
+
+17. Sum of digits of a 3-digit number
+    123 → 6
+
+18. Check if a number is palindrome (3-digit only, no loop)
+
+19. Extract:
+
+* last digit
+* middle digit
+* first digit
+
+20. Convert seconds → hours, minutes, seconds
+
+21. Find total marks and percentage (5 subjects)
+
+22. Find simple interest
+    SI = (P * R * T) / 100
+
+23. Area of circle
+    π * r²
+
+24. Convert days → years, weeks, days
+
+
+
+TRICKY OPERATOR TASKS (GOOD FOR INTERVIEWS)
+
+25. Swap using ^ (bitwise XOR)
+
+26. Check odd/even using bitwise &
+
+27. Multiply a number by 2 using bitwise shift
+
+28. Divide a number by 2 using bitwise shift
+
+29. Check if number is positive, negative or zero
+    (Hint: use comparison operators only)
+
+30. Find greatest of two numbers using operators only
+    (No if, use logical operators)
+
+
+HARD LEVEL (PURE OPERATOR CHALLENGE)
+
+31. Find greatest of 3 numbers without if
+
+32. Check leap year using only operators
+
+33. Minimum of two numbers using formula
+
+34. Check if number is power of 2 using bitwise
+
+
+
+MINI CHALLENGE SET (VERY IMPORTANT)
+
+Try solving without help:
+
+* Reverse 4-digit number using only operators
+* Sum of all digits of 4-digit number
+* Swap first and last digit of number
+* Check Armstrong number (3-digit) using only operators
+* Find second largest among 3 numbers using only operators
+
+
+
+Practice Tasks using only if, if-else, elif
+
+Rule:
+Use only conditions (no loops, no functions)
+
+
+BASIC LEVEL
+
+1. Check if a number is positive or negative
+2. Check if a number is even or odd
+3. If age is 18 or more → "Eligible to vote", else "Not eligible"
+4. Check if a number is greater than 10
+5. Check if a character is a vowel or consonant
+6. If temperature is greater than 30 → "Hot", else "Normal"
+7. If salary is greater than 50000 → "High salary"
+8. Check if marks are pass (>= 35) or fail
+9. Check if a number is zero or non-zero
+10. If username is correct → "Login success", else → "Fail"
+
+
+
+INTERMEDIATE LEVEL
+
+11. Find the largest of 2 numbers
+12. Find the largest of 3 numbers
+13. Check if a year is a leap year or not
+14. Grade system:
+
+* Marks >= 90 → Grade A
+* Marks >= 75 → Grade B
+* Marks >= 50 → Grade C
+* Marks < 50 → Fail
+
+15. Check if a triangle is valid (sum of angles = 180)
+16. Triangle type:
+
+* All sides equal → Equilateral
+* Two sides equal → Isosceles
+* All different → Scalene
+
+17. Check if a number is divisible by both 3 and 5
+18. Electricity bill:
+
+* Units <= 100 → Free
+* Units <= 200 → ₹2 per unit
+* Units > 200 → ₹5 per unit
+
+19. Check if password length is at least 8 characters
+20. Time (0–23):
+
+* 0–11 → Morning
+* 12–17 → Afternoon
+* 18–23 → Night
+
+HARD LEVEL
+
+21. Calculate BMI and print category:
+
+* < 18.5 → Underweight
+* 18.5–24.9 → Normal
+* 25–29.9 → Overweight
+* > = 30 → Obese
+
+22. Student result:
+
+* If all subjects are pass → Pass
+* If any subject fails → Fail
+
+23. Shopping discount:
+
+* Amount > 5000 → 20% discount
+* Amount > 2000 → 10% discount
+* Amount <= 2000 → No discount
+
+24. ATM withdrawal:
+
+* Check if balance is enough
+* Check if amount is valid
+
+25. Login system:
+
+* If username and password are correct → Login success
+
+26. Check if a number is a palindrome
+    (Hint: convert number to string)
+
+27. Day number (1–7):
+
+* 1 → Sunday
+* 2 → Monday
+* ...
+* 7 → Saturday
+
+28. Traffic signal:
+
+* Red → Stop
+* Yellow → Wait
+* Green → Go
+
+29. Movie ticket:
+
+* Age < 12 → Child price
+* Age 12–60 → Normal price
+* Age > 60 → Senior citizen price
+
+30. Banking interest:
+
+* Amount > 1,00,000 → 7%
+* Amount > 50,000 → 5%
+* Amount <= 50,000 → 3%
+
+
+Challenge: FizzBuzz
+Take one number.
+If the number is divisible by both 3 and 5 → print "FizzBuzz"
+If the number is divisible by only 3 → print "Fizz"
+If the number is divisible by only 5 → print "Buzz"
+If the number is not divisible by 3 or 5 → print the number itself
+A number is divisible if:
+
+No remainder (balance) is left
+
+Example:
+
+6 ÷ 3 = 2 (divisible)
+7 ÷ 3 = 2 remainder 1  (not divisible)
+
+
+While loop
+
+BASIC LEVEL
+
+1. Print numbers from 1 to 10 using a `while` loop
+2. Print numbers from 10 to 1 (reverse order)
+3. Print all even numbers from 1 to 20
+4. Print all odd numbers from 1 to 20
+5. Print multiplication table of a given number
+6. Find the sum of first 10 natural numbers
+7. Count how many numbers are divisible by 3 from 1 to 50
+8. Print numbers from 1 to N (user input)
+9. Find the sum of numbers from 1 to N
+10. Print squares of numbers from 1 to 10
+
+
+
+INTERMEDIATE LEVEL
+
+11. Reverse a number using a `while` loop
+12. Check if a number is a palindrome
+13. Count digits in a number
+14. Find the product of digits of a number
+15. Find the sum of digits of a number
+16. Print Fibonacci series up to N terms
+17. Find factorial of a number
+18. Keep taking input until user enters 0 (sentinel loop)
+19. Count how many positive, negative, and zero numbers entered
+20. Print all numbers between two given numbers
+
+
+
+ADVANCED LEVEL
+
+21. Check if a number is prime using `while`
+22. Find GCD of two numbers using `while`
+23. Find LCM of two numbers using `while`
+24. Generate Armstrong numbers between 1 and 1000
+25. Print pattern using `while` (e.g., triangle of stars)
+26. Keep asking password until correct one is entered
+27. Simulate ATM balance check (loop until exit)
+28. Find the largest digit in a number
+29. Convert decimal to binary using `while`
+30. Guess the number game (loop until correct guess)
+
+
+for loop
+1.Print numbers from `1 to 100` divisible by both `3 and 5`
+
+2.Find the sum of all even numbers from `1 to 200`
+
+3.Find factorial of a number using `for` loop
+
+4.Reverse a number using `for` loop
+
+5.Count how many digits are present in a number
+
+6.Check whether a number is palindrome or not
+
+7.Check whether a number is Armstrong number
+
+8.Find the largest digit in a number
+
+9.Find the smallest digit in a number
+
+10.Find the sum of digits of a number
+
+11.Print multiplication tables from `1 to 10`
+
+12.Print triangle pattern
+*
+**
+***
+****
+*****
+
+
+13.Print reverse triangle
+*****
+****
+***
+**
+*
+
+14.Print pyramid pattern
+    *
+   ***
+  *****
+ *******
+
+
+15.Print Floyd’s triangle
+1
+2 3
+4 5 6
+7 8 9 10
+
+16.Print all prime numbers from `1 to 100`
+
+17.Check whether a number is prime
+
+18.Print Fibonacci series up to `n` terms
+
+19.Find HCF of two numbers using loop
+
+20.Find LCM of two numbers using loop
+
+21.Count vowels in a string using `for` loop
+
+22.Count uppercase and lowercase letters separately
+
+23.Reverse a string using `for` loop
+
+24.Check whether a string is palindrome
+
+25.Find duplicate characters in a string
+
+26.Print this pattern
+1
+12
+123
+1234
+12345
+
+27.Print this pattern
+5
+54
+543
+5432
+54321
+
+28.Print diamond pattern
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+
+29.Print Pascal Triangle
+
+30.Create a number guessing simulation using only `for` loop with 5 attempts
+
+BONUS EXTREME TASKS
+
+31.Find second largest number in a list using loop
+
+32.Remove duplicates from list manually using loop
+
+33.Sort a list manually using nested `for` loop
+
+34.Print all perfect numbers between `1 to 1000`
+
+35.Find frequency of each character in a string
+
+
+
+functions
+# Python Functions Tasks (Easy → Intermediate)
+
+ Easy Level
+
+1. Create a function to print `"Hello World"`.
+
+2. Create a function that takes a name and prints:
+   `"Welcome <name>"`
+
+3. Create a function to add two numbers and print the result.
+
+4. Create a function to find the square of a number.
+
+5. Create a function to find the cube of a number.
+
+6. Create a function to check whether a number is even or odd.
+
+7. Create a function to find the biggest of two numbers.
+
+8. Create a function to print numbers from 1 to 10 using a loop.
+
+9. Create a function to calculate the area of a rectangle.
+
+10. Create a function to calculate the perimeter of a square.
+
+11. Create a function that returns the multiplication table of a number.
+
+12. Create a function to count the number of vowels in a word.
+
+13. Create a function to reverse a string.
+
+14. Create a function to check whether a string is palindrome or not.
+
+15. Create a function to find the factorial of a number.
+
+
+
+# Intermediate Level
+
+16. Create a function to find the sum of all elements in a list.
+
+17. Create a function to find the largest number in a list.
+
+18. Create a function to count how many times a character appears in a string.
+
+19. Create a function to remove duplicate values from a list.
+
+20. Create a function to sort a list in ascending order.
+
+21. Create a function to check whether a year is a leap year.
+
+22. Create a function to generate Fibonacci series up to `n` numbers.
+
+23. Create a function that accepts unlimited numbers using `*args` and returns the sum.
+
+24. Create a function to calculate simple interest.
+
+25. Create a function that returns both quotient and remainder.
+
+26. Create a function to check whether a number is prime.
+
+27. Create a function to count uppercase and lowercase letters in a string.
+
+28. Create a function that converts Celsius to Fahrenheit.
+
+29. Create a function to find the second largest number in a list.
+
+30. Create a function to create a login system using username and password checking.
+
+
+Sure machan 😎 Same pattern-la **OOP concepts each 5 tasks** ah expand pannuren. Beginner → Intermediate → Hard order-la use pannikkalam.
+
+#Beginner Level
+
+## Class and Object — 5 More Tasks
+
+31. Create a class `Book` and display book title, author and price.
+
+32. Create a class `Laptop` and display laptop brand, RAM and storage.
+
+33. Create a class `BankAccount` and display account holder name and balance.
+
+34. Create a class `Product` and create 3 objects with different product names and prices.
+
+35. Create a class `Movie` and display movie name, hero and rating.
+
+---
+
+## Methods — 5 More Tasks
+
+36. Create a method to calculate the area of a rectangle.
+
+37. Create a method to calculate the area of a circle.
+
+38. Create a method to find the largest of two numbers.
+
+39. Create a method to find the largest of three numbers.
+
+40. Create a method to calculate simple interest.
+
+---
+
+## String Programs — 5 More Tasks
+
+41. Create a class and count the number of words in a string.
+
+42. Create a class and count uppercase and lowercase characters.
+
+43. Create a class and remove spaces from a string.
+
+44. Create a class and check whether two strings are equal.
+
+45. Create a class and find the frequency of a particular character.
+
+---
+
+## Number Programs — 5 More Tasks
+
+46. Create a class to check whether a number is Armstrong.
+
+47. Create a class to check whether a number is a perfect number.
+
+48. Create a class to find the largest digit in a number.
+
+49. Create a class to count the number of digits.
+
+50. Create a class to find the GCD of two numbers.
+
+---
+
+# Intermediate Level
+
+## Constructor — 5 Tasks
+
+51. Create a `Student` class with a constructor to initialize name and age.
+
+52. Create an `Employee` class with a constructor to initialize name, department and salary.
+
+53. Create a `Product` class with a constructor to initialize product name, price and quantity.
+
+54. Create a `BankAccount` class with a constructor to initialize account number, holder name and balance.
+
+55. Create a `Car` class with a constructor to initialize brand, model and price.
+
+---
+
+## Instance Variables — 5 Tasks
+
+56. Create a `Student` class with instance variables `name`, `age` and `mark`, then display them.
+
+57. Create an `Employee` class with instance variables `name`, `salary` and `department`.
+
+58. Create a `Mobile` class with instance variables `brand`, `model` and `price`.
+
+59. Create a `Book` class with instance variables `title`, `author` and `price`.
+
+60. Create a `Product` class and calculate total price using instance variables `price` and `quantity`.
+
+---
+
+## Class Variables — 5 Tasks
+
+61. Create a `Student` class with a class variable `school_name`.
+
+62. Create an `Employee` class with a class variable `company_name`.
+
+63. Create a `Vehicle` class with a class variable `vehicle_count` and count created objects.
+
+64. Create a `Bank` class with a class variable `bank_name`.
+
+65. Create a `College` class with a class variable `college_name` and display it using multiple objects.
+
+---
+
+## Class Method — 5 Tasks
+
+66. Create a `Student` class with a class method to change the school name.
+
+67. Create an `Employee` class with a class method to change the company name.
+
+68. Create a `Bank` class with a class method to change the bank name.
+
+69. Create a `Vehicle` class with a class method to display the total number of vehicles.
+
+70. Create a `College` class with a class method to update the college name.
+
+---
+
+## Static Method — 5 Tasks
+
+71. Create a `Calculator` class with a static method to add two numbers.
+
+72. Create a `MathOperations` class with a static method to check whether a number is even.
+
+73. Create a `Validator` class with a static method to validate an email.
+
+74. Create a `Number` class with a static method to check whether a number is prime.
+
+75. Create a `Temperature` class with a static method to convert Celsius to Fahrenheit.
+
+---
+
+Inheritance
+
+## Single Inheritance — 5 More Tasks
+
+76. Create `Person → Employee` and display employee details.
+
+77. Create `Animal → Horse` and create a method for eating and running.
+
+78. Create `Device → Mobile` and display device and mobile details.
+
+79. Create `Account → SavingsAccount` and implement deposit and withdrawal.
+
+80. Create `Company → Manager` and display manager details.
+
+---
+
+## Multilevel Inheritance — 5 More Tasks
+
+81. Create `Person → Employee → Manager`.
+
+82. Create `Vehicle → Car → ElectricCar`.
+
+83. Create `Animal → Mammal → Dog`.
+
+84. Create `Device → Computer → Laptop`.
+
+85. Create `School → Student → CollegeStudent`.
+
+---
+
+## Hierarchical Inheritance — 5 More Tasks
+
+86. Create `Vehicle` parent class with `Car` and `Bike` child classes.
+
+87. Create `Employee` parent class with `Manager` and `Developer` child classes.
+
+88. Create `Animal` parent class with `Dog`, `Cat` and `Horse` child classes.
+
+89. Create `Shape` parent class with `Circle`, `Square` and `Rectangle` child classes.
+
+90. Create `Account` parent class with `SavingsAccount` and `CurrentAccount` child classes.
+
+---
+
+Encapsulation
+
+## Encapsulation — 5 More Tasks
+
+91. Create a `BankAccount` class with private `__balance` and methods for deposit and withdrawal.
+
+92. Create an `Employee` class with private `__salary` and methods to set and get salary.
+
+93. Create a `Student` class with private `__mark` and validate marks before storing them.
+
+94. Create a `Product` class with private `__price` and prevent negative prices.
+
+95. Create a `Person` class with private `__age` and allow age to be changed only through a method.
+
+---
+
+Polymorphism
+
+Method Overriding — 5 Tasks
+
+96. Create `Animal` and override `sound()` in `Dog` and `Cat`.
+
+97. Create `Vehicle` and override `start()` in `Car` and `Bike`.
+
+98. Create `Employee` and override `calculate_salary()` in `Manager` and `Developer`.
+
+99. Create `Shape` and override `area()` in `Circle` and `Rectangle`.
+
+100. Create `Payment` and override `pay()` in `UPI`, `Card` and `Cash`.
+
+---
+
+Duck Typing — 5 Tasks
+
+101. Create `Dog` and `Cat` classes with the same `sound()` method and call them through one function.
+
+102. Create `Car` and `Bike` classes with the same `start()` method.
+
+103. Create `PDF` and `Word` classes with a `read()` method.
+
+104. Create `UPI` and `CreditCard` classes with a `pay()` method.
+
+105. Create `Circle` and `Rectangle` classes with an `area()` method.
+
+---
+
+Advanced OOP
+
+## Multiple Inheritance — 5 Tasks
+
+106. Create `Father` and `Mother` classes and inherit both into `Child`.
+
+107. Create `Teacher` and `Researcher` classes and inherit both into `Professor`.
+
+108. Create `Employee` and `Athlete` classes and inherit both into `SportsEmployee`.
+
+109. Create `Writer` and `Editor` classes and inherit both into `Author`.
+
+110. Create `Developer` and `Designer` classes and inherit both into `FullStackDeveloper`.
+
+---
+
+ Hybrid Inheritance — 5 Tasks
+
+111. Create a hybrid inheritance structure using `Person`, `Student`, `Employee` and `Intern`.
+
+112. Create a hybrid inheritance structure using `Vehicle`, `Car`, `Bike` and `ElectricCar`.
+
+113. Create a hybrid inheritance structure using `Animal`, `Mammal`, `Bird`, `Dog` and `Bat`.
+
+114. Create a hybrid inheritance structure using `Employee`, `Developer`, `Manager` and `TeamLead`.
+
+115. Create a hybrid inheritance structure using `Shape`, `Polygon`, `Circle`, `Rectangle` and `Square`.
+
+---
+
+Abstraction — 5 Tasks
+
+116. Create an abstract `Shape` class with an abstract `area()` method. Implement it in `Circle` and `Rectangle`.
+
+117. Create an abstract `Vehicle` class with `start()` method. Implement it in `Car` and `Bike`.
+
+118. Create an abstract `Payment` class with `pay()` method. Implement it using `UPI` and `Card`.
+
+119. Create an abstract `Employee` class with `calculate_salary()`. Implement it in `Manager` and `Developer`.
+
+120. Create an abstract `Animal` class with `sound()`. Implement it using `Dog`, `Cat` and `Cow`.
+
+---
+
+# Special / Magic Methods — 5 Tasks
+
+121. Create a `Student` class and implement `__str__()` to display student details.
+
+122. Create a `Product` class and implement `__len__()` to return the number of products.
+
+123. Create a `Book` class and implement `__eq__()` to compare two books.
+
+124. Create a `Point` class and overload `+` using `__add__()`.
+
+125. Create a `Product` class and overload `>` using `__gt__()` to compare product prices.
+
+---
+
+# Composition — 5 Tasks
+
+126. Create `Engine` and `Car` classes where `Car` contains an `Engine` object.
+
+127. Create `Battery` and `Mobile` classes where `Mobile` contains a `Battery` object.
+
+128. Create `CPU` and `Computer` classes where `Computer` contains a `CPU` object.
+
+129. Create `Address` and `Person` classes where `Person` contains an `Address` object.
+
+130. Create `Room` and `House` classes where `House` contains multiple `Room` objects.
+
+---
+
+# Aggregation — 5 Tasks
+
+131. Create `Department` and `Teacher` classes where a department has teachers.
+
+132. Create `College` and `Student` classes where a college has students.
+
+133. Create `Team` and `Player` classes where a team contains players.
+
+134. Create `Library` and `Book` classes where a library contains books.
+
+135. Create `Company` and `Employee` classes where a company contains employees.
+
+---
+
+#Operator Overloading — 5 Tasks
+
+136. Create a `Box` class and overload `+` to add two box dimensions.
+
+137. Create a `Student` class and overload `>` to compare marks.
+
+138. Create a `Money` class and overload `+` to add two money objects.
+
+139. Create a `Distance` class and overload `+` to add two distances.
+
+140. Create a `ComplexNumber` class and overload `+` and `-`.
+
+---
+
+#Hard Level — Real-World OOP
+
+141. **Bank Management System**
+     Create classes for `Customer`, `Account` and `Bank`. Implement deposit, withdrawal and balance checking.
+
+142. **Library Management System**
+     Create `Book`, `Member` and `Library` classes. Implement add book, issue book, return book and display books.
+
+143. **Employee Management System**
+     Create `Employee`, `Manager` and `Developer` classes. Implement salary calculation and employee details.
+
+144. **Online Shopping System**
+     Create `Product`, `Cart`, `Customer` and `Order` classes. Implement add-to-cart, remove-from-cart and bill generation.
+
+145. **Hospital Management System**
+     Create `Person`, `Doctor`, `Patient` and `Appointment` classes. Implement doctor assignment and appointment booking.
+
