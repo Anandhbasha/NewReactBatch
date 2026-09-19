@@ -7,10 +7,16 @@
 </head>
 <body>
     <h1>Product List</h1>
+    <a href="/inventory/add/">
+        <button>Add Product</button>
+    </a>
     {% for p in Products %}
         <h2>{{p.name}}</h2>
         <h2>{{p.price}}</h2>
         <h2>{{p.qty}}</h2>
+        <a href="/inventory/edit/{{p.id}}/">
+            <button>Edit</button>
+        </a>
         <hr>
         {% empty %}
             <p>No Produts found</p>
